@@ -12,11 +12,13 @@ window.onload = function() {
   let noun = ["jogger", "racoon"];
   let extensions = ["com", "net", "us", "io"];
 
-  for (const pro of pronoun) {
-    for (const adj of adjective) {
-      for (const nou of noun) {
-        for (const ext of extensions) {
-          console.log(pro + adj + nou + "." + ext);
+  for (const pronounItem of pronoun) {
+    for (const adjectiveItem of adjective) {
+      for (const nounItem of noun) {
+        for (const extensionItem of extensions) {
+          console.log(
+            pronounItem + adjectiveItem + nounItem + "." + extensionItem
+          );
         }
       }
     }
